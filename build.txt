@@ -1,0 +1,3 @@
+displayName = Terrarity
+author = Terrarity
+version = 0.1
