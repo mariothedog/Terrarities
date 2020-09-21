@@ -24,7 +24,7 @@ namespace Terrarity
 						Main.rand.Next(-35, 36) * 0.02f,
 						Main.rand.Next(-35, 36) * 0.02f
 						);
-					int beeDamage = Main.rand.Next(28, 32);
+					int beeDamage = Main.rand.Next(3, 7);
 					Projectile.NewProjectile(player.position, beeVelocity, ProjectileID.Bee, beeDamage, 0, player.whoAmI);
 				}
 			}
